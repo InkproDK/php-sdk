@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/InkproDK/php-sdk"
+            "url": "https://github.com/InkproDK/php-oauth2-client"
         },
         {"type": "composer", "url": "https://repo.packagist.com/inkpro/"},
         {"packagist.org": false}
