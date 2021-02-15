@@ -9,6 +9,7 @@
             "OnPay\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
