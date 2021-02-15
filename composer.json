@@ -9,9 +9,17 @@
             "OnPay\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/InkproDK/php-sdk"
+        },
+        {"type": "composer", "url": "https://repo.packagist.com/inkpro/"},
+        {"packagist.org": false}
+    ],
     "require": {
         "php": ">=5.6",
-        "onpayio/oauth2-client": "^7.1",
+        "onpayio/oauth2-client": "dev-patchcodeverifier",
         "ext-json": "*"
     }
 }
